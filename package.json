@@ -4,14 +4,16 @@
   "description": "PROYECTO DE API RESFUL CON NODE.JS Y EXPRESS",
   "main": "index.js",
   "scripts": {
-  	"start":"nodemon index.js", 
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "CUEVAS CASTRO LUIS",
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.18.3",
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "mongodb": "^3.1.10",
+    "mongoose": "^4.6.0"
   },
   "devDependencies": {
     "nodemon": "^1.18.7"
